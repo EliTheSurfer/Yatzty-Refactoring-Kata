@@ -1,4 +1,7 @@
+package controllers;
+
 public class Yatzy {
+
 
     public static int chance(int d1, int d2, int d3, int d4, int d5)
     {
@@ -52,6 +55,39 @@ public class Yatzy {
         if (d3 == 3) s += 3;
         if (d4 == 3) s += 3;
         if (d5 == 3) s += 3;
+        return s;
+    }
+
+    public static int fours(int d1, int d2, int d3, int d4, int d5) {
+        int s;
+        s = 0;
+        if (d1 == 4) s += 4;
+        if (d2 == 4) s += 4;
+        if (d3 == 4) s += 4;
+        if (d4 == 4) s += 4;
+        if (d5 == 4) s += 4;
+        return s;
+    }
+
+    public static int fives(int d1, int d2, int d3, int d4, int d5) {
+        int s;
+        s = 0;
+        if (d1 == 5) s += 5;
+        if (d2 == 5) s += 5;
+        if (d3 == 5) s += 5;
+        if (d4 == 5) s += 5;
+        if (d5 == 5) s += 5;
+        return s;
+    }
+
+    public static int sixes(int d1, int d2, int d3, int d4, int d5) {
+        int s;
+        s = 0;
+        if (d1 == 6) s += 6;
+        if (d2 == 6) s += 6;
+        if (d3 == 6) s += 6;
+        if (d4 == 6) s += 6;
+        if (d5 == 6) s += 6;
         return s;
     }
 

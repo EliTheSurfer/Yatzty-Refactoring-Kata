@@ -1,3 +1,6 @@
+package controllers;
+
+import controllers.Yatzy;
 import org.junit.*;
 import static org.junit.Assert.*;
 
