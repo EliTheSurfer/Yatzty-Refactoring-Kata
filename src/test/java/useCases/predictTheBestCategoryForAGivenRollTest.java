@@ -30,7 +30,6 @@ public class predictTheBestCategoryForAGivenRollTest {
         GivenRoll roll = GivenRoll.builder()
                 .firstDice(1)
                 .secondDice(1)
-                .thirdDice(1)
                 .thirdDice(3)
                 .fourthDice(1)
                 .fifthDice(1)

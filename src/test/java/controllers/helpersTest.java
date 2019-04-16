@@ -11,12 +11,12 @@ public class helpersTest {
     public void getNumberOfRepetition_should_return_the_right_values() {
         //Given
         GivenRoll roll = GivenRoll.builder()
-                                    .firstDice(1)
-                                    .secondDice(1)
-                                    .thirdDice(3)
-                                    .fourthDice(4)
-                                    .fifthDice(5)
-                                    .build();
+                                  .firstDice(1)
+                                  .secondDice(1)
+                                  .thirdDice(3)
+                                  .fourthDice(4)
+                                  .fifthDice(5)
+                                  .build();
 
         //Then
         assertEquals(2, helpers.getNumberOfRepetition(1,  roll));

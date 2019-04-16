@@ -3,7 +3,7 @@ package controllers;
 import domain.GivenRoll;
 
 public class fourOfAKindCategory {
-    static final int REVERSE_PROBABILITY = 1296;
+    private static final int REVERSE_PROBABILITY = 1296;
 
     public static double getQuantumScore(GivenRoll roll){
 
