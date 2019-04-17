@@ -3,10 +3,9 @@ package controllers;
 import domain.GivenRoll;
 
 public class smallStraightCategory {
-    static final int REVERSE_PROBABILITY = 7776;
+    private static final int REVERSE_PROBABILITY = 7776;
 
     public static double getQuantumScore(GivenRoll roll){
-
         return (REVERSE_PROBABILITY)
                 *
                 Yatzy.smallStraight(

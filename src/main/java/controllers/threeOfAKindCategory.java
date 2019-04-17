@@ -3,11 +3,9 @@ package controllers;
 import domain.GivenRoll;
 
 public class threeOfAKindCategory {
-
-    static final int REVERSE_PROBABILITY = 216;
+    private static final int REVERSE_PROBABILITY = 216;
 
     public static double getQuantumScore(GivenRoll roll){
-
         return (REVERSE_PROBABILITY)
                 *
                 Yatzy.three_of_a_kind(

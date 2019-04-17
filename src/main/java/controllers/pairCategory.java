@@ -3,7 +3,7 @@ package controllers;
 import domain.GivenRoll;
 
 public class pairCategory {
-    static final int REVERSE_PROBABILITY = 6;
+    private static final int REVERSE_PROBABILITY = 6;
 
     public static double getQuantumScore(GivenRoll roll){
 

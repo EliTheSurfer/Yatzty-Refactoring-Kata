@@ -3,7 +3,7 @@ package controllers;
 import domain.GivenRoll;
 
 public class fullHouseCategory {
-    static final int REVERSE_PROBABILITY = 216;
+    private static final int REVERSE_PROBABILITY = 216;
 
     public static double getQuantumScore(GivenRoll roll){
 

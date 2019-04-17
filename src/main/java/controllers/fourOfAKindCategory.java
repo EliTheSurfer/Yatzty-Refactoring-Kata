@@ -6,7 +6,6 @@ public class fourOfAKindCategory {
     private static final int REVERSE_PROBABILITY = 1296;
 
     public static double getQuantumScore(GivenRoll roll){
-
         return (REVERSE_PROBABILITY)
                 *
                 Yatzy.four_of_a_kind(

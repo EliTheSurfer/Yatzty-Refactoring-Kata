@@ -3,7 +3,7 @@ package controllers;
 import domain.GivenRoll;
 
 public class foursCategory {
-    static final int REVERSE_PROBABILITY_FOR_A_SINGLE_VALUE = 6;
+    private static final int REVERSE_PROBABILITY_FOR_A_SINGLE_VALUE = 6;
 
     public static double getQuantumScore(GivenRoll roll){
         int occurrences = helpers.getNumberOfRepetition(4,roll);

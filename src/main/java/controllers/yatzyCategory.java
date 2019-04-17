@@ -3,7 +3,6 @@ package controllers;
 import domain.GivenRoll;
 
 public class yatzyCategory {
-
     private final static int REVERSE_PROBABILITY = 1296;
 
     public static int getQuantumScore(GivenRoll roll){
